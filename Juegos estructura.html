@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clasificación FODA</title>
+    <link rel="stylesheet" href="estilo.css"> 
+</head>
+<body>
+    <div id="juego-contenedor">
+        <h1>Clasifica el Factor Administrativo</h1>
+        <p id="pregunta-texto">¿Qué tipo de factor es: 'La empresa tiene una patente tecnológica única'?</p>
+        
+        <div id="opciones-botones">
+            <button onclick="comprobarRespuesta('F')">Fortaleza</button>
+            <button onclick="comprobarRespuesta('O')">Oportunidad</button>
+            <button onclick="comprobarRespuesta('D')">Debilidad</button>
+            <button onclick="comprobarRespuesta('A')">Amenaza</button>
+        </div>
+        
+        <p id="retroalimentacion"></p>
+        <button id="siguiente-btn" style="display:none;">Siguiente Pregunta</button>
+
+    </div>
+    <script src="logica.js"></script> 
+</body>
+</html>
